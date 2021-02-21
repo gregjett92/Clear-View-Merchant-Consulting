@@ -14,8 +14,13 @@
     padding: 2px 10px;
 }
 .icon-bar{
-    background: darkblue;
+    background: #26374D;
 }
 li a {
-    color: darkblue;
+    color: #26374D;
+}
+.big-text {
+    font-size: 52px;
+    margin: 20px 0;
+    color: #26374D;
 }
