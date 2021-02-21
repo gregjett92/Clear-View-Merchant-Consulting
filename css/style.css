@@ -7,6 +7,7 @@
 }
 .navbar-style{
     box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
 }
 .logo {
     height: 70px;
@@ -14,4 +15,7 @@
 }
 .icon-bar{
     background: darkblue;
+}
+li a {
+    color: darkblue;
 }
