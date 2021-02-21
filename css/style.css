@@ -32,6 +32,7 @@ li a {
     font-size: 52px;
     margin: 20px 0;
     color: #26374D;
+    font-family: 'Spectral SC', serif;
 }
 
 a.btn{
@@ -63,3 +64,9 @@ a.btn:hover{
 banner-info, banner-image{
     margin: 30px 0;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      text-align: center;
+    }
+  }
