@@ -19,8 +19,20 @@
 li a {
     color: #26374D;
 }
+
+.main-page{
+    margin-top: 80px;
+}
+
 .big-text {
     font-size: 52px;
     margin: 20px 0;
     color: #26374D;
+}
+
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
 }
