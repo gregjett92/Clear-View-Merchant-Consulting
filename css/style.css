@@ -2,12 +2,22 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    text-align: center;
+}
 .header {
     height: 100vh;
 }
+
+.navbar{
+    
+}
+
 .navbar-style{
     box-shadow: 0 5px 10px #efefef;
     text-transform: uppercase;
+    line-height: 72px;
 }
 .logo {
     height: 70px;
