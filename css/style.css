@@ -29,12 +29,21 @@ li a {
     color: #26374D;
 }
 
+ul.a {
+    list-style-type: circle;
+    color: #26374D;
+  }
+
 .nav-center {
     margin: 10px;
 }
 
 .main-page{
     margin-top: 80px;
+}
+
+.main-body{
+    background-color: #26374D;
 }
 
 .big-text {
