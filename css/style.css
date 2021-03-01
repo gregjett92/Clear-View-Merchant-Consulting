@@ -58,7 +58,8 @@ a.btn-first{
 
 a.btn-second {
     background: transparent;
-    border: 1px solid #26374D;
+    border: 1px solid
+     #26374D;
     color: #333;
 }
 
