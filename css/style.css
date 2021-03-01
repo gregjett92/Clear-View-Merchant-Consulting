@@ -44,6 +44,10 @@ li a {
     font-family: 'Spectral SC', serif;
 }
 
+.emphasis {
+    color: darkgoldenrod;
+}
+
 a.btn{
     margin: 30px 10px;
     width: 150px;
@@ -70,6 +74,14 @@ a.btn:hover{
     box-shadow: 5px 5px 10px #999;
     transition: 0.3s;
 }
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    }
 
 banner-info, banner-image{
     margin: 30px 0;
