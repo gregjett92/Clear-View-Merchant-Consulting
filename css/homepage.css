@@ -40,6 +40,7 @@ body {
 .navbar-nav li a {
     color: #26374D !important;
     font-weight: 600;
+    text-align: center;
 }
 
 .fa-bars {
@@ -51,4 +52,17 @@ body {
     outline: none !important;
 }
 
-/* ============================================================================ */
+/* ================================== HEADER ========================================== */
+
+#header {
+
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(38,55,77,0.008841036414565795) 35%);
+    color: #fff; */
+    padding-top: 5%;
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
