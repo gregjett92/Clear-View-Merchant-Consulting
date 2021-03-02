@@ -7,9 +7,15 @@ body {
     font-family: sans-serif;
 }
 
+/* ====================== NAVBAR ======================== */
 .navbar {
-    position: relative;
-    height: 70px;
+    height: 80px;
+   padding: 0 !important;
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+    line-height: 80px;
 }
 
 .mr-auto {
@@ -32,6 +38,17 @@ body {
 }
 
 .navbar-nav li a {
-    color: #fff !important;
+    color: #26374D !important;
     font-weight: 600;
 }
+
+.fa-bars {
+    color: #26374D;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/* ============================================================================ */
