@@ -30,7 +30,7 @@ body {
 
 .navbar-brand img {
     height: 40px;
-    padding-left: 20px;
+    padding-left: 50px;
 }
 
 .navbar-nav li {
@@ -65,4 +65,31 @@ body {
     font-size: 40px;
     font-weight: 600;
     margin-top: 100px;
+}
+
+.main-active.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.main-active.btn-first{
+    background-color: #26374D;
+    color: #fff;
+}
+
+.main-active.btn-second {
+    background: transparent;
+    border: 1px solid
+     #26374D;
+    color: #333;
+}
+
+.main-active.btn:hover{
+    background: #26374D;
+    border: none;
+    color: #fff;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
 }
