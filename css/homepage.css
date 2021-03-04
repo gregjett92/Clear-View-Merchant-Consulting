@@ -5,9 +5,12 @@
 
 body {
     font-family: sans-serif;
+    background-color: #f5f5f5;
 }
 
 /* ====================== NAVBAR ======================== */
+
+
 .navbar {
    padding: 0 !important;
 }
@@ -59,12 +62,18 @@ body {
     /* /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(38,55,77,0.008841036414565795) 35%); */
     color: #26374D;
     padding-top: 5%;
+    /* text-align: center; */
 }
 
 .promo-title {
     font-size: 40px;
     font-weight: 600;
     margin-top: 100px;
+    
+}
+
+.img-move {
+    padding: 50px 0 0 15PX;
 }
 
 .main-active.btn{
@@ -92,4 +101,19 @@ body {
     color: #fff;
     box-shadow: 5px 5px 10px #999;
     transition: 0.3s;
+}
+
+/* =================================== ABOUT US ========================================= */
+
+#about-us {
+    padding: 80px;
+}
+
+.aboutus-img {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.about-us {
+    padding: 20px;
 }
