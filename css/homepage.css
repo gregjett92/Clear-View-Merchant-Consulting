@@ -149,6 +149,7 @@ body {
     font-family: 'Josefin Sans';
 }
 
+/* LINE ABOVE OUR SERVICES */
 .title::before {
     content:'';
     background: #EFDE0C;
@@ -181,42 +182,21 @@ body {
     /* background-image: linear-gradient(to right bottom,  #f5f5f5,  #f5f5f5,  #f5f5f5, #9193a1, #26374d); */
 /* } */
 
-/* .service-img {
-    width: 250px;
-    margin-top: 20px;
-}
-
-.service {
-    padding: 20px;
-}
-
-.service h4 {
-    color: #26374D;
-    padding: 5px;
-    margin-top: 25px;
-    text-transform: uppercase;
-}
-
-.service h1 {
-
-    color: #EFDE0C;
-    padding: 5px;
-    text-transform: uppercase;
-} */
 
 /* LINE ABOVE ABOUT US */
-.title::before {
-    content:'';
-    background: #EFDE0C;
-    height: 5px;
-    width:200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    transform: translateY(60px);
-    box-shadow: 5px 5px 10px #999;
-}
 
-.title {
-    color: #26374D;
-} 
+
+/* ============================ PARALLAX ============================ */
+
+#parallax .parallax-one {
+    padding-top: 360px;
+    padding-bottom: 360px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(/Images/phone-pay.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
