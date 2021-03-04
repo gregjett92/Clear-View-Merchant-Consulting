@@ -39,6 +39,7 @@ body {
 
 .navbar-nav li {
     padding: 0 10px;
+    
 }
 
 .navbar-nav li a {
@@ -74,6 +75,25 @@ body {
     
 }
 
+#merch-con {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 100px;
+    font-family: 'Josefin Sans';
+}
+
+/* #merch-con::before {
+    content:'';
+    background: #EFDE0C;
+    height: 5px;
+    width:400px;
+    margin-left: auto;
+    margin-right: 240px;
+    margin-bottom: 15px;
+    display: block;
+    transform: translateY(60px);
+} */
+
 .img-move {
     padding: 50px 0 0 15PX;
 }
@@ -105,17 +125,18 @@ body {
     transition: 0.3s;
 }
 
-/* =================================== ABOUT US ========================================= */
+/* =================================== OUR SERVICE ========================================= */
 
 #service {
     padding: 80px;
-    /* background-color: #d3d3d3; */
-    background-image: linear-gradient(to right bottom,  #f5f5f5,  #f5f5f5,  #f5f5f5, #9193a1, #26374d);
+    background-color: #f8f9fa;
+    /* background-image: linear-gradient(to right bottom,  #f5f5f5,  #f5f5f5,  #f5f5f5, #9193a1, #26374d); */
 }
 
 .service-img {
     width: 250px;
     margin-top: 20px;
+    box-shadow: 5px 5px 10px #999;
 }
 
 .service {
@@ -123,8 +144,15 @@ body {
 }
 
 .service h4 {
+    color: #26374D;
     padding: 5px;
     margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.service h1 {
+    color: #EFDE0C;
+    padding: 5px;
     text-transform: uppercase;
 }
 
@@ -138,6 +166,7 @@ body {
     margin-right: auto;
     display: block;
     transform: translateY(60px);
+    box-shadow: 5px 5px 10px #999;
 }
 
 .title {
