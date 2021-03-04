@@ -1,3 +1,7 @@
+:root {
+    scroll-behavior: smooth;
+  }
+  
 * {
     margin: 0;
     padding: 0;
@@ -148,6 +152,7 @@ body {
     padding: 5px;
     margin-top: 25px;
     text-transform: uppercase;
+    font-family: 'Josefin Sans';
 }
 
 .service h1 {
@@ -171,4 +176,5 @@ body {
 
 .title {
     color: #26374D;
+    font-family: 'Spectral SC', serif;
 }
