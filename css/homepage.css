@@ -107,6 +107,7 @@ body {
 
 #about-us {
     padding: 80px;
+    background-color: #d3d3d3;
 }
 
 .aboutus-img {
@@ -122,4 +123,19 @@ body {
     padding: 5px;
     margin-top: 25px;
     text-transform: uppercase;
+}
+
+/* LINE ABOVE ABOUT US */
+.title::before {
+    content:'';
+    background: #EFDE0C;
+    height: 5px;
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.title {
+    color: #26374D;
 }
