@@ -74,25 +74,6 @@ body {
     
 }
 
-/* #merch-con {
-    font-size: 30px;
-    font-weight: 600;
-    margin-top: 100px;
-    font-family: 'Josefin Sans';
-} */
-
-/* #merch-con::before {
-    content:'';
-    background: #EFDE0C;
-    height: 5px;
-    width:400px;
-    margin-left: auto;
-    margin-right: 240px;
-    margin-bottom: 15px;
-    display: block;
-    transform: translateY(60px);
-} */
-
 .img-move {
     padding: 50px 0 0 15PX;
 }
@@ -201,6 +182,39 @@ body {
     background-position: top center;
 }
 
+#parallax .parallax-two {
+    padding-top: 360px;
+    padding-bottom: 360px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(/Images/fist-bump.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+/* ============================ ABOUT US ============================ */
+
+#about-us {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+.about-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 8%;
+    font-family: 'Josefin Sans';
+    color: #26374D;
+    text-transform: uppercase;
+}
+
+
+/* ============================ MEDIA QUERIES ============================ */
 @media only screen and (max-width: 800px) {
 
     .mr-auto {
@@ -234,4 +248,4 @@ body {
     #header {
         text-align: center;
     } */
-  }
+  /* } */
