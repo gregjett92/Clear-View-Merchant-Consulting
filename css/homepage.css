@@ -194,9 +194,44 @@ body {
     overflow: hidden;
     position: relative;
     width: 100%;
-    background-image: url(/Images/phone-pay.jpg);
+    background-image: url(/Images/startup2.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
 }
+
+@media only screen and (max-width: 800px) {
+
+    .mr-auto {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .promo-title {
+        text-align: center;
+    }
+
+    #header {
+        text-align: center;
+    }
+
+    .service-img {
+        text-align: center;
+        padding: 0 5px 0 5PX;
+    }
+  }
+
+
+/* @media only screen and (max-width: 600px) {
+    
+
+    .promo-title {
+        text-align: center;
+    }
+
+    #header {
+        text-align: center;
+    } */
+  }
