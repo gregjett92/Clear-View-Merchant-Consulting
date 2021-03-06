@@ -47,6 +47,13 @@ body {
     text-align: center;
 }
 
+/* .navbar-nav li a:hover {
+    transform: translateY(-10px);
+} */
+
+/* NEW */
+
+
 .fa-bars {
     color: #26374D;
     font-size: 30px !important;
@@ -211,6 +218,30 @@ body {
     font-family: 'Josefin Sans';
     color: #26374D;
     text-transform: uppercase;
+}
+
+/* ============================ SOCIAL MEDIA ============================ */
+
+#social-media {
+    background: #26374D;
+    color: white;
+    padding: 100PX 0;
+}
+
+#social-media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons i {
+    width: 60px;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover i {
+    transform: translateY(-10px);
 }
 
 
