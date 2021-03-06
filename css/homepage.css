@@ -235,6 +235,7 @@ body {
 }
 
 .social-icons i {
+    color: #fff;
     width: 60px;
     padding-left: 10px;
     transition: 0.5s;
@@ -242,6 +243,7 @@ body {
 
 .social-icons a:hover i {
     transform: translateY(-10px);
+    color: #EFDE0C;
 }
 
 
