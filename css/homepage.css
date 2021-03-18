@@ -121,9 +121,11 @@ body {
 }
 
 .service-img {
-    width: 250px;
+    width: 350px;
     margin-top: 20px;
     box-shadow: 5px 5px 10px #999;
+    height: 300px;
+    object-fit: cover;
 }
 
 .services {
@@ -220,6 +222,16 @@ body {
     font-family: 'Josefin Sans';
     color: #26374D;
     text-transform: uppercase;
+}
+
+/* ============================ OUE PRODUCTS ============================ */
+
+.product-img {
+    width: 350px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px #999;
+    height: 300px;
+    object-fit: cover;
 }
 
 /* ============================ SOCIAL MEDIA ============================ */
