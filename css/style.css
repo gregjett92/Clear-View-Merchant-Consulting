@@ -1,74 +1,90 @@
-:root {
-    scroll-behavior: smooth;
-  }
-
-/* *{
+* {
     margin: 0;
     padding: 0;
-} */
+}
 
 body {
-    /* text-align: center; */
+    font-family: sans-serif;
+    background-color: #f5f5f5;
 }
 
-p h1 {
-    font-family: 'Josefin Sans';
-}
-.header {
-    height: 100vh;
-    /* background: rgba(225, 238, 243); */
-}
+/* ====================== NAVBAR ======================== */
 
-/* ====== NAVBAR ====== */
+
+.navbar {
+   padding: 0 !important;
+}
 .navbar-style{
     box-shadow: 0 5px 10px #efefef;
     text-transform: uppercase;
     line-height: 80px;
 }
-.logo {
+
+.mr-auto {
+    margin-left: auto;
+    margin-right: 70px;
+}
+
+#nav-bar {
     height: 70px;
-    padding: 2px 10px;
-    float: left;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
-
-
-.icon-bar{
-    background: #26374D;
+.navbar-brand img {
+    height: 60px;
+    padding-left: 20px;
 }
-li .main-active {
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #26374D !important;
+    font-weight: 600;
+    text-align: center;
+}
+
+.navbar-nav li a:hover {
+    transform: scale(0.8);
+    /* transition-duration: 3s; */
+    /* transform: translateY(-10px); */
+}
+
+/* NEW */
+
+
+.fa-bars {
     color: #26374D;
+    font-size: 30px !important;
 }
 
-ul.main-active {
-    list-style-type: circle;
+.navbar-toggler {
+    outline: none !important;
+}
+
+/* ================================== HEADER ========================================== */
+
+#header {
+
+    /* /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(38,55,77,0.008841036414565795) 35%); */
     color: #26374D;
-  }
-
-.nav-center {
-    margin: 10px;
+    padding-top: 5%;
+    /* text-align: center; */
 }
-/* ============================= */
-.main-page{
-    margin-top: 120px;
-    /* background-image: url("bluewave.jpg"); */
-    /* background: rgba(225, 238, 243); */
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    font-family: 'Spectral SC', serif;
     
 }
 
-.main-body{
-    /* background-color: #26374D; */
-}
-
-.big-text {
-    font-size: 52px;
-    margin: 20px 0;
-    color: #26374D;
-    font-family: 'Spectral SC', serif;
-}
-
-.emphasis {
-    color: darkgoldenrod;
+.img-move {
+    padding: 50px 0 0 15PX;
 }
 
 .main-active.btn{
@@ -98,25 +114,215 @@ ul.main-active {
     transition: 0.3s;
 }
 
-.parent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
-    }
+/* =================================== ABOUT US ========================================= */
 
-banner-info, banner-image{
-    margin: 30px 0;
+#services {
+    padding: 80px 0;
 }
 
-/* ========= FOOTER ============ */
+.service-img {
+    width: 250px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px #999;
+    height: 300px;
+    object-fit: cover;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h4 {
+    color: #26374D;
+    font-weight: 600;
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans';
+}
+
+/* LINE ABOVE OUR SERVICES */
+.title::before {
+    content:'';
+    background: #EFDE0C;
+    height: 5px;
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(60px);
+    box-shadow: 5px 5px 10px #999;
+}
+
+.title {
+    color: #26374D;
+    font-family: 'Spectral SC', serif;
+} 
+
+#services .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    color: #26374D;
+}
 
 
-/* ============================= */
+/* #service {
+    padding: 80px;
+    background-color: #f8f9fa;
+    /* background-image: linear-gradient(to right bottom,  #f5f5f5,  #f5f5f5,  #f5f5f5, #9193a1, #26374d); */
+/* } */
 
-@media only screen and (max-width: 600px) {
-    body {
-      text-align: center;
+
+/* LINE ABOVE ABOUT US */
+
+
+/* ============================ PARALLAX ============================ */
+
+#parallax .parallax-one {
+    padding-top: 360px;
+    padding-bottom: 360px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(/Images/startup2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#parallax .parallax-two {
+    padding-top: 360px;
+    padding-bottom: 360px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(/Images/fist-bump.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+/* ============================ ABOUT US ============================ */
+
+#about-us {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+.about-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 8%;
+    font-family: 'Josefin Sans';
+    color: #26374D;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 10px #999;
+}
+
+/* ============================ OUR PRODUCTS ============================ */
+
+#product {
+    padding: 80px 0 80px;
+}
+
+.product h4 {
+    color: #26374D;
+    font-weight: 600;
+    /* padding: 5px; */
+    /* margin-top: 5px; */
+    text-transform: uppercase;
+    font-family: 'Josefin Sans';
+}
+.product-img {
+    align-content: center;
+    width: 100%px;
+    margin-top: 20px;
+    padding: 5px 20px 5px 20px;
+    /* box-shadow: 5px 5px 10px #999; */
+    height: 300px;
+    border: 0.5px solid;
+    border-color: black;
+    /* object-fit: cover; */
+}
+
+.card {
+    box-shadow: 5px 5px 10px #999;
+    height: 450px;
+    width: 380px;
+}
+
+.card-body{
+    background-color: #778899;
+    text-overflow: ellipsis;
+    /* box-shadow: 5px 5px 10px #999; */
+}
+
+
+/* ============================ SOCIAL MEDIA ============================ */
+
+#social-media {
+    background: #26374D;
+    color: white;
+    padding: 100PX 0;
+}
+
+#social-media p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons i {
+    color: #fff;
+    width: 60px;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover i {
+    transform: translateY(-10px);
+    color: #EFDE0C;
+}
+
+
+/* ============================ MEDIA QUERIES ============================ */
+@media only screen and (max-width: 800px) {
+
+    .mr-auto {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .promo-title {
+        text-align: center;
+    }
+
+    #header {
+        text-align: center;
+    }
+
+    .service-img {
+        text-align: center;
+        padding: 0 5px 0 5PX;
     }
   }
+
+
+/* @media only screen and (max-width: 600px) {
+    
+
+    .promo-title {
+        text-align: center;
+    }
+
+    #header {
+        text-align: center;
+    } */
+  /* } */
