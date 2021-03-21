@@ -234,33 +234,31 @@ body {
 .product h4 {
     color: #26374D;
     font-weight: 600;
-    /* padding: 5px; */
-    /* margin-top: 5px; */
+    padding: 5px;
+    margin-top: 5px;
     text-transform: uppercase;
     font-family: 'Josefin Sans';
 }
 .product-img {
-    align-content: center;
-    width: 100%px;
-    margin-top: 20px;
+    /* align-content: center; */
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
     padding: 5px 20px 5px 20px;
-    /* box-shadow: 5px 5px 10px #999; */
-    height: 300px;
     border: 0.5px solid;
     border-color: black;
-    /* object-fit: cover; */
 }
 
 .card {
     box-shadow: 5px 5px 10px #999;
-    height: 450px;
+    height: 400px;
     width: 380px;
 }
 
 .card-body{
-    background-color: #778899;
-    text-overflow: ellipsis;
-    /* box-shadow: 5px 5px 10px #999; */
+    background-color: #D3D3D3;
+    height: 150px;
+
 }
 
 
