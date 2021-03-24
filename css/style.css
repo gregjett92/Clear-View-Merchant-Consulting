@@ -116,7 +116,16 @@ body {
     transition: 0.3s;
 }
 
-/* =================================== ABOUT US ========================================= */
+/* =================================== WHO WE SERVE ========================================= */
+.wws-img {
+    /* width: 250px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px #999;
+    height: 300px; */
+    /* object-fit: cover; */
+}
+
+/* =================================== SERVICES ========================================= */
 
 #services {
     padding: 80px 0;
@@ -214,7 +223,7 @@ body {
     overflow: hidden;
     position: relative;
     width: 100%;
-    background-image: url(/Images/fist-bump.jpg);
+    background-image: url(/Images/blogger.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -227,7 +236,7 @@ body {
     overflow: hidden;
     position: relative;
     width: 100%;
-    background-image: url(/Images/fist-bump.jpg);
+    background-image: url(/Images/plans.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
