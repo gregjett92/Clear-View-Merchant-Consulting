@@ -208,6 +208,32 @@ body {
     background-position: top center;
 }
 
+#parallax .parallax-three {
+    padding-top: 360px;
+    padding-bottom: 360px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(/Images/fist-bump.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#parallax .parallax-four {
+    padding-top: 360px;
+    padding-bottom: 360px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(/Images/fist-bump.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
 /* ============================ ABOUT US ============================ */
 
 #about-us {
