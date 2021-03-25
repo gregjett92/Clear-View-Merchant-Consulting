@@ -118,14 +118,26 @@ body {
 
 /* =================================== WHO WE SERVE ========================================= */
 #wws {
-    padding: 80px 0;
+    padding: 50px 0;
 }
 .wws {
-    padding: 80px 0;
+    padding: 50px 0;
 }
 .icon{
     margin-right: 10px;
 }
+
+.wws-p {
+    margin-top: 45px;
+}
+
+#wws-list {
+    list-style-position: inside;
+    line-height: 400%;
+    font-weight: 600;
+}
+
+
 
 /* =================================== SERVICES ========================================= */
 
