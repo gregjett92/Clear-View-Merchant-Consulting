@@ -117,13 +117,14 @@ body {
 }
 
 /* =================================== WHO WE SERVE ========================================= */
+#wws {
+    padding: 80px 0;
+}
 .wws {
     padding: 80px 0;
-    /* width: 250px;
-    margin-top: 20px;
-    box-shadow: 5px 5px 10px #999;
-    height: 300px; */
-    /* object-fit: cover; */
+}
+.icon{
+    margin-right: 10px;
 }
 
 /* =================================== SERVICES ========================================= */
