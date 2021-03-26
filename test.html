@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -8,56 +8,24 @@
   <title>Document</title>
 </head>
 <body>
-  <button id="button">Add</button>  
-  <div class="container">
-    <div class="row">
-      <div class="card card-hidden col-xs-3">1</div>
-      <div class="card card-hidden col-xs-3">2</div>
-      <div class="card card-hidden col-xs-3">3</div>
-      <div class="card card-hidden col-xs-3">4</div>
+  <div class="container" id="blur">
+    <div class="col" id="blur">
+      <div class="card product">
+        <img src="images/Deja Voo/DejaVoo Z11.jpg" class="card-img-top product-img" alt="...">
+        <div class="card-body ">
+          <h4 class="card-title">Card title</h4>
+          <a class="btn btn-first main-active nav-item card1" onclick="toggle()" href="#">VIEW DETAILS</a>
+        </div>
+      </div>
+    </div>
+  
+    <div id="popup">
+      <h2>Lorem ipsum dolor sit amet consectetur</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fugit iusto amet magni ratione unde atque rem possimus magnam, pariatur veniam ullam assumenda eos accusantium officiis obcaecati corrupti facilis? Quam?</p>
+      <a class="btn btn-first main-active nav-item card1" onclick="toggle()" href="#">CLOSE</a>
     </div>
   </div>
+  
   <script src="javascript/test.js"></script>
-</body>
-</html>
- -->
-
- <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-#myDIV {
-  width: 100%;
-  padding: 50px 0;
-  text-align: center;
-  background-color: lightblue;
-  margin-top: 20px;
-}
-</style>
-</head>
-<body>
-
-<p>Click the "Try it" button to toggle between hiding and showing the DIV element:</p>
-
-<button onclick="myFunction()">Try it</button>
-
-<div id="myDIV">
-This is my DIV element.
-</div>
-
-<p><b>Note:</b> The element will not take up any space when the display property set to "none".</p>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myDIV");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
-
 </body>
 </html>

@@ -1,13 +1,7 @@
-alert('Hello');
-
-$("#button").on("click", function(e) {
-    if ($(".card-hidden").length > 0) {
-       $(".card-hidden").first().slideToggle(function() {
-         $(this).removeClass("card-hidden");
-       });
-    } else {
-      console.log("No more cards to show.");
-    }
-   });
-
-   
+function toggle() {
+  var blur = document.getElementById('blur');
+  blur.classList.toggle('active');
+  
+  var popup = document.getElementById('popup');
+  popup.classList.toggle('active');
+}
