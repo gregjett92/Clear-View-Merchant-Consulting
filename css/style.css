@@ -116,10 +116,33 @@ body {
     transition: 0.3s;
 }
 
-/* =================================== ABOUT US ========================================= */
+/* =================================== WHO WE SERVE ========================================= */
+#wws {
+    padding: 50px 0;
+}
+.wws {
+    padding: 50px 0;
+}
+.icon{
+    margin-right: 10px;
+}
+
+.wws-p {
+    margin-top: 45px;
+}
+
+#wws-list {
+    list-style-position: inside;
+    line-height: 400%;
+    font-weight: 600;
+}
+
+
+
+/* =================================== SERVICES ========================================= */
 
 #services {
-    padding: 80px 0;
+    padding: 50px 0;
 }
 
 .service-img {
@@ -208,6 +231,32 @@ body {
     background-position: top center;
 }
 
+#parallax .parallax-three {
+    padding-top: 360px;
+    padding-bottom: 360px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(/Images/Handshake.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+#parallax .parallax-four {
+    padding-top: 360px;
+    padding-bottom: 360px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(/Images/plans.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
 /* ============================ ABOUT US ============================ */
 
 #about-us {
@@ -267,7 +316,33 @@ body {
 .card-body{
     background-color: #D3D3D3;
     width: 100%;
+}
 
+#blur.active {
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+
+#popup {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0,0,0,.30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#popup.active {
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
 }
 
 /* ============================ PAGINATION ============================ */
