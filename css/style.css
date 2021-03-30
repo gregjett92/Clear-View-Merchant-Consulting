@@ -98,6 +98,7 @@ body {
     /* /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(38,55,77,0.008841036414565795) 35%); */
     color: #26374D;
     padding-top: 5%;
+    height: 100vh;
     /* text-align: center; */
 }
 
@@ -359,7 +360,7 @@ body {
     position: absolute;
     top: 5%;
     width: 800px;
-    height: 200px;
+    height: 500px;
     margin: auto;
     z-index: 99999;
     display: block;
