@@ -315,6 +315,10 @@ body {
     text-align: center;
 }
 
+.popup-header {
+    margin-top: 35px;
+}
+
 #product {
     padding: 80px 0 80px;
 }
