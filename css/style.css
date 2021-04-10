@@ -320,6 +320,11 @@ body {
     font-weight: 600;
 }
 
+.pop-paragraph {
+    padding-top: 15px;
+}
+
+
 #product {
     padding: 80px 0 80px;
 }
