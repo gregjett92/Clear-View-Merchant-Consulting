@@ -1,3 +1,29 @@
+/* @media (max-width: 1300px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggler {
+        display: block!important;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+} */
 * {
     margin: 0;
     padding: 0;
@@ -72,6 +98,7 @@ body {
     /* /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(38,55,77,0.008841036414565795) 35%); */
     color: #26374D;
     padding-top: 5%;
+    height: 100vh;
     /* text-align: center; */
 }
 
@@ -211,7 +238,7 @@ body {
     overflow: hidden;
     position: relative;
     width: 100%;
-    background-image: url(/Images/startup2.jpg);
+    background-image: url(../Images/startup2.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -224,7 +251,7 @@ body {
     overflow: hidden;
     position: relative;
     width: 100%;
-    background-image: url(/Images/fist-bump.jpg);
+    background-image: url(../Images/fist-bump.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -237,7 +264,7 @@ body {
     overflow: hidden;
     position: relative;
     width: 100%;
-    background-image: url(/Images/Handshake.jpeg);
+    background-image: url(../Images/Handshake.jpeg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -250,7 +277,7 @@ body {
     overflow: hidden;
     position: relative;
     width: 100%;
-    background-image: url(/Images/plans.jpg);
+    background-image: url(../Images/plans.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -281,6 +308,22 @@ body {
 .card {
     margin-top: 30px;
 }
+
+.card1 {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.popup-header {
+    margin-top: 35px;
+    font-weight: 600;
+}
+
+.pop-paragraph {
+    padding-top: 15px;
+}
+
 
 #product {
     padding: 80px 0 80px;
@@ -318,31 +361,34 @@ body {
     width: 100%;
 }
 
-#blur.active {
-    filter: blur(20px);
-    pointer-events: none;
-    user-select: none;
-}
-
-#popup {
+#bgcover {
+    width: 100%;
+    height: 100%;
+    background: black;
     position: fixed;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 600px;
-    padding: 50px;
-    box-shadow: 0 5px 30px rgba(0,0,0,.30);
-    background: #fff;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.5s;
+    top: 0;
+    left: 0;
+    opacity: 0.9;   
+    display: none;
+    z-index: 95000;
 }
-
-#popup.active {
-    top: 50%;
-    visibility: visible;
-    opacity: 1;
-    transition: 0.5s;
+.popup{
+    position: absolute;
+    text-align: center;
+    overflow: scroll;
+    top: 5%;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    z-index: 99999;
+    display: block;
+    left:25%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px 4px #000;
+    overflow: hidden;
+    padding: 10px 20px 0 20px;
 }
 
 /* ============================ PAGINATION ============================ */
