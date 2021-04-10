@@ -269,6 +269,7 @@ body {
 #parallax .parallax-three {
     padding-top: 360px;
     padding-bottom: 360px;
+    margin-top: 25px;
     overflow: hidden;
     position: relative;
     width: 100%;
