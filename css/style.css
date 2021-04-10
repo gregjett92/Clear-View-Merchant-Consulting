@@ -143,6 +143,10 @@ body {
     transition: 0.3s;
 }
 
+/* .landing-header {
+    text-transform: lowercase;
+} */
+
 /* =================================== WHO WE SERVE ========================================= */
 #wws {
     padding: 50px 0;
@@ -210,6 +214,10 @@ body {
     color: #26374D;
     font-family: 'Spectral SC', serif;
 } 
+
+#our-service {
+    margin-top: 50px;
+}
 
 #services .btn-primary {
     box-shadow: none;
