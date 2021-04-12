@@ -316,6 +316,10 @@ body {
     /* box-shadow: 5px 5px 10px #999; */
 }
 
+.about-video {
+    padding: 50px 0 0 15PX;
+}
+
 /* ============================ OUR PRODUCTS ============================ */
 
 .card {
@@ -468,7 +472,7 @@ body {
 
 
 /* ============================ MEDIA QUERIES ============================ */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1500px) {
 
     .mr-auto {
         margin-left: auto;
@@ -493,17 +497,22 @@ body {
         height: 100%;
         width: 100%;
     }
+
+    .about-video {
+        max-width: 100%;
+        height: auto;
+        padding: 50px 0 0 15PX;
+   }
   }
 
+  @media only screen and (max-width: 768px) {
+    .about-video {
+        max-width: 100%;
+        height: auto;
+        padding: 70px 0 0 15PX;
+   }
 
-/* @media only screen and (max-width: 600px) {
-    
-
-    .promo-title {
-        text-align: center;
+    .about-paragraph {
+        height: auto;
     }
-
-    #header {
-        text-align: center;
-    } */
-  /* } */
+  }
