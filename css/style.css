@@ -328,6 +328,10 @@ body {
     padding-top: 15px;
 }
 
+.popup-info {
+    margin-top: 5%;
+}
+
 
 #product {
     padding: 80px 0 80px;
