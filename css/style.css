@@ -316,12 +316,15 @@ body {
 .card1 {
     position: absolute;
     bottom: 0;
-    right: 36%;
+    right: 39%;
 }
 
 .popup-header {
+    color: #26374D;
     margin-top: 35px;
     font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans';
 }
 
 .pop-paragraph {
