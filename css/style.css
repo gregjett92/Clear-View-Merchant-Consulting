@@ -276,9 +276,17 @@ body {
 
 #about-us {
     background: #f8f9fa;
-    padding-bottom: 50px;
     padding-top: 25px;
     text-transform: uppercase;
+    margin: auto;
+}
+
+#about-mission {
+    padding-bottom: 50px;
+    background: #f8f9fa;
+    /* padding-top: 25px; */
+    text-transform: uppercase;
+    margin: auto;
 }
 
 .about-title {
