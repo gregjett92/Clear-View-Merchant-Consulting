@@ -52,8 +52,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p class="promo-title animate__fadeInDown">CLEARVIEW<br><span id="merch-con">MERCHANT CONSULTING</span></p>
-                    <P class="landing-header">At clearview merchant consulting, we are committed to providing tailor-made solutions that help your business reach its fullest potential</P>
+                    <p data-scroll="toggle(.fromTopIn, .fromTopOut)" class="promo-title animate__animated animate__fadeInDown">CLEARVIEW<br><span id="merch-con">MERCHANT CONSULTING</span></p>
+                    <P data-scroll="toggle(.fromTopIn, .fromTopOut)" class="landing-header animate__animated animate__fadeInDown animate__delay-1s">At clearview merchant consulting, we are committed to providing tailor-made solutions that help your business reach its fullest potential</P>
                     <a class="btn btn-first main-active" href="#">Contact Us</a>
                     <a class="btn btn-second main-active" href="#">Get Started</a>
                 </div>
@@ -73,7 +73,7 @@
         <div class="parallax-one"></div>
         <span id="wws" style='display:hidden; margin-top:2.5rem'></span>
         <div class="container text-center" style='padding-top:2.5rem;'>
-          <h1 class="title" id="wws-title">WHO WE SERVICE</h1>
+          <h1 data-scroll="toggle(.fromTopIn, .fromTopOut)" class="title animate__animated animate__fadeInDown" id="wws-title">WHO WE SERVICE</h1>
           <div class="row text-center wws">
             <div class="col-md">
               <img src="Images/Who We Serve Icons/B2B.png" class="icon">
@@ -213,6 +213,12 @@
 
     </div>
     <script src="javascript/script.js"></script>
+    <script src="ScrollTrigger.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function(){
+        var trigger = new ScrollTrigger();
+      });
+      </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -6,6 +6,7 @@
 //     popup.classList.toggle('active');
 // }
 
+
 function openPopup(cardNum) {
     var el = document.getElementById('popup'+cardNum);
     var BG = document.getElementById('bgcover');
