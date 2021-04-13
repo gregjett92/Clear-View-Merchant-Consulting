@@ -292,7 +292,7 @@ body {
 .about-title {
     font-size: 30px;
     font-weight: 600;
-    margin-top: 8%;
+    margin-top: 14%;
     font-family: 'Josefin Sans';
     color: #26374D;
     text-transform: uppercase;
@@ -300,6 +300,10 @@ body {
 }
 
 .about-video {
+    padding: 50px 0 0 15PX;
+}
+
+.about-img-move {
     padding: 50px 0 0 15PX;
 }
 
@@ -486,9 +490,13 @@ body {
         height: auto;
         padding: 50px 0 0 15PX;
    }
+
+    .about-img-move {
+        padding: 50px 0 0 15PX;
+    }   
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 769px) {
     .about-video {
         max-width: 100%;
         height: auto;
@@ -497,5 +505,20 @@ body {
 
     .about-paragraph {
         height: auto;
+    }
+
+    #about-us {
+        background: #f8f9fa;
+        padding-top: 25px;
+        text-transform: uppercase;
+        margin: auto;
+    }
+
+    #about-mission {
+        padding-bottom: 50px;
+        background: #f8f9fa;
+        /* padding-top: 25px; */
+        text-transform: uppercase;
+        margin: auto;
     }
   }
