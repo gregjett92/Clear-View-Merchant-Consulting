@@ -405,6 +405,9 @@ body {
 
 #dejavavooz11-list {
     list-style-position: inside;
+}
+
+#dejavavooz11-list {
     overflow: scroll;
 }
 
