@@ -403,6 +403,13 @@ body {
     padding: 10px 20px 0 20px;
 }
 
+#dejavavooz11-list {
+    list-style-position: inside;
+    overflow: scroll;
+}
+
+
+
 /* ============================ PAGINATION ============================ */
 .center {
     text-align: center;
