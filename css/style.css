@@ -313,7 +313,17 @@ body {
     margin-top: 30px;
 }
 
+/* a .card1 {
+    margin-top: 5px;
+} */
+
 .card1 {
+    position: absolute;
+    bottom: 0;
+    right: 39%;
+}
+
+.card8 {
     position: absolute;
     bottom: 0;
     right: 39%;
@@ -403,13 +413,14 @@ body {
     padding: 10px 20px 0 20px;
 }
 
+#popup8 {
+    height: 570px !important;
+}
+
 #dejavavooz11-list {
     list-style-position: inside;
 }
 
-#dejavavooz11-list {
-    overflow: scroll;
-}
 
 
 
