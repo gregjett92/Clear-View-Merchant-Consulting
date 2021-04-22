@@ -292,7 +292,7 @@ body {
 .about-title {
     font-size: 30px;
     font-weight: 600;
-    margin-top: 14%;
+    margin-top: 10%;
     font-family: 'Josefin Sans';
     color: #26374D;
     text-transform: uppercase;
@@ -303,8 +303,9 @@ body {
     padding: 50px 0 0 15PX;
 }
 
-.about-img-move {
-    padding: 50px 0 0 15PX;
+.about-paragraph {
+    padding: 0 0 50px 15PX;
+    margin-bottom: 20px;
 }
 
 /* ============================ PRODUCTS LANDING PAGE============================ */
@@ -323,7 +324,7 @@ body {
 .pl-title {
     font-size: 30px;
     font-weight: 600;
-    margin-top: 14%;
+    margin-top: 40px;
     font-family: 'Josefin Sans';
     color: #26374D;
     text-transform: uppercase;
