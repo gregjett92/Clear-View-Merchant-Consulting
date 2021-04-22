@@ -317,7 +317,17 @@ body {
 }
 
 .pl-img-move {
-    padding: 75px 0 0 15PX;
+    padding: 75px 10px 0 15PX;
+}
+
+.pl-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 14%;
+    font-family: 'Josefin Sans';
+    color: #26374D;
+    text-transform: uppercase;
+    /* box-shadow: 5px 5px 10px #999; */
 }
 
 .pl-description {
