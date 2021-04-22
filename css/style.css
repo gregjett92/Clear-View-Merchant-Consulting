@@ -307,6 +307,25 @@ body {
     padding: 50px 0 0 15PX;
 }
 
+/* ============================ PRODUCTS LANDING PAGE============================ */
+
+#products-landing {
+    background: #f8f9fa;
+    padding-top: 25px;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.pl-img-move {
+    padding: 75px 0 0 15PX;
+}
+
+.pl-description {
+
+}
+
+video.about-video
+
 /* ============================ OUR PRODUCTS ============================ */
 
 .card {
