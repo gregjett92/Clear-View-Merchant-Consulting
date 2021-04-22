@@ -292,7 +292,7 @@ body {
 .about-title {
     font-size: 30px;
     font-weight: 600;
-    margin-top: 10%;
+    margin-top: 40px;
     font-family: 'Josefin Sans';
     color: #26374D;
     text-transform: uppercase;
@@ -324,7 +324,7 @@ body {
 .pl-title {
     font-size: 30px;
     font-weight: 600;
-    margin-top: 40px;
+    margin-top: 14%;
     font-family: 'Josefin Sans';
     color: #26374D;
     text-transform: uppercase;
