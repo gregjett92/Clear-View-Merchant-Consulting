@@ -455,6 +455,12 @@ video.about-video
     list-style-position: inside;
 }
 
+/* ============================ PRICING ============================ */
+
+#pricing {
+    padding: 80px 0 90px;
+}
+
 
 
 
