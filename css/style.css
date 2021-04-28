@@ -66,6 +66,16 @@ body {
     outline: none !important;
 }
 
+.subnav {
+  margin-left: auto;
+  margin-right: auto;
+}
+.subnav li a {
+    color: #fff !important;
+    font-weight: 600;
+    text-align: center;
+}
+
 /* ================================== HEADER ========================================== */
 
 #header {
