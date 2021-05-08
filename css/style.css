@@ -327,6 +327,12 @@ body {
     margin: auto;
 }
 
+.pl-img {
+    height: 400px;
+    object-fit: contain; /*or scale-down*/
+    padding: 5px 20px 5px 20px;
+}
+
 .pl-img-move {
     padding: 75px 10px 0 15PX;
 }
