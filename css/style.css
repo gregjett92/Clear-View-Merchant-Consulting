@@ -535,6 +535,10 @@ hr {
     margin-bottom: 30px;
 }
 
+#launch {
+    font-size: 40px;
+    word-spacing: 20px;
+}
 /* ============================ PAGINATION ============================ */
 .center {
     text-align: center;
