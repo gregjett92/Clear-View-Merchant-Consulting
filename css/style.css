@@ -493,6 +493,15 @@ video.about-video {
     font-family: 'Spectral SC', serif;
 }
 
+.contact-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 14%;
+    font-family: 'Josefin Sans';
+    color: #26374D;
+    text-transform: uppercase;
+}
+
 /* ============================ COMING SOON ============================ */
 
 header {
