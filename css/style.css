@@ -494,6 +494,15 @@ video.about-video {
     font-family: 'Spectral SC', serif;
 }
 
+/* ============================ COMING SOON ============================ */
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(image.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
 /* ============================ PAGINATION ============================ */
 .center {
     text-align: center;
