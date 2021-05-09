@@ -294,7 +294,6 @@ body {
 #about-mission {
     padding-bottom: 50px;
     background: #f8f9fa;
-    /* padding-top: 25px; */
     text-transform: uppercase;
     margin: auto;
 }
@@ -306,7 +305,6 @@ body {
     font-family: 'Josefin Sans';
     color: #26374D;
     text-transform: uppercase;
-    /* box-shadow: 5px 5px 10px #999; */
 }
 
 .about-video {
@@ -317,6 +315,7 @@ body {
     padding: 0 0 50px 15PX;
     margin-bottom: 20px;
 }
+
 
 /* ============================ PRODUCTS LANDING PAGE============================ */
 
