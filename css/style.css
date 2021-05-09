@@ -355,7 +355,9 @@ body {
 
 }
 
-video.about-video
+video.about-video {
+    padding-bottom: 180px;
+}
 
 /* ============================ OUR PRODUCTS ============================ */
 
