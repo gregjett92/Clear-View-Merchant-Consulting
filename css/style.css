@@ -487,6 +487,13 @@ video.about-video {
         padding-top: 360px;
 }
 
+.contact-promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 70px;
+    font-family: 'Spectral SC', serif;
+}
+
 /* ============================ PAGINATION ============================ */
 .center {
     text-align: center;
