@@ -507,7 +507,8 @@ header {
     color: #26374D;
     padding-top: 7%;
     height: 100vh;
-
+    font-family: 'Spectral SC', serif;
+    font-weight: 600;
 }
 
 .hero {
@@ -527,7 +528,8 @@ header {
 hr {
     width: 50%;
     margin: 30px auto;
-    border: 1.5px solid #fff;
+    border: 2px solid #fff;
+    font-weight: 600;
 }
 
 .cs_p {
