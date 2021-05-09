@@ -497,10 +497,17 @@ video.about-video {
 /* ============================ COMING SOON ============================ */
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(image.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../Images/man_at_river.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
+}
+
+#cs_header {
+    color: #26374D;
+    padding-top: 7%;
+    height: 100vh;
+
 }
 
 /* ============================ PAGINATION ============================ */
