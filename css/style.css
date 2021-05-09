@@ -499,7 +499,7 @@ video.about-video {
 header {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../Images/man_at_river.jpg);
     height: 100vh;
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
 }
 
@@ -508,6 +508,31 @@ header {
     padding-top: 7%;
     height: 100vh;
 
+}
+
+.hero {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.cs_h1 {
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+
+hr {
+    width: 50%;
+    margin: 30px auto;
+    border: 1.5px solid #fff;
+}
+
+.cs_p {
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
 /* ============================ PAGINATION ============================ */
