@@ -403,9 +403,6 @@ video.about-video {
     margin-bottom: 20px;
 }
 
-.integrations {
-    /* padding-bottom: 25px; */
-}
 
 .pl-description {
 
@@ -747,4 +744,8 @@ hr {
         padding-top: 0;
         padding-bottom: 0;
     }
+
+    /* .pl-img {
+        padding: 0;
+    } */
   }
