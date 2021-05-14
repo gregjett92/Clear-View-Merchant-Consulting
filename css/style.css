@@ -11,7 +11,8 @@ body {
 
 ul, li {
     padding-left: 0px;
-    margin: 10px 0;
+    /* margin: 10px 0; */
+    line-height: 45px;
 }
 
 /* ====================== NAVBAR ======================== */
@@ -193,7 +194,7 @@ ul, li {
     padding: 50px 0;
 }
 .icon{
-    margin-right: 10px;
+    margin: 5px 10px;
 }
 
 .wws-p {
@@ -253,6 +254,7 @@ ul, li {
 .title {
     color: #26374D;
     font-family: 'Spectral SC', serif;
+    text-transform: uppercase;
 } 
 
 #our-service {
@@ -338,7 +340,7 @@ ul, li {
 #about-us {
     background: #f8f9fa;
     padding-top: 40px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin: auto;
 }
 
@@ -350,7 +352,7 @@ ul, li {
 #about-mission {
     padding-bottom: 50px;
     background: #f8f9fa;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin: auto;
 }
 
