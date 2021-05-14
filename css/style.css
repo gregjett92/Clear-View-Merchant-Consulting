@@ -745,7 +745,16 @@ hr {
         padding-bottom: 0;
     }
 
-    /* .pl-img {
-        padding: 0;
-    } */
+    #wws-list {
+        list-style-position: inside;
+        line-height: 0;
+        font-weight: 0;
+        display: inline-block;
+        text-align:left;
+    }
+
+    .pl-title {
+        margin-top: 0;
+    }
+    
   }
