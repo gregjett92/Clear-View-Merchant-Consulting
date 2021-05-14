@@ -169,18 +169,6 @@ ul, li {
     transition: 0.3s;
 }
 
-/* .landing-header {
-    text-transform: lowercase;
-} */
-
-/* .splash {
-    height: 100%;
-}
-
-.splash .row {
-    position: relative;
-    top: 20%;
-} */
 
 /* =================================== WHO WE SERVE ========================================= */
 #wws {
@@ -369,6 +357,10 @@ ul, li {
     padding: 50px 0 0 15PX;
 }
 
+video.about-video {
+    padding-bottom: 180px;
+}
+
 .about-paragraph {
     padding: 0 0 50px 15PX;
     margin-bottom: 20px;
@@ -380,7 +372,7 @@ ul, li {
 #products-landing {
     background: #f8f9fa;
     padding: 75px 0 50px 0;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin: auto;
 }
 
@@ -404,6 +396,11 @@ ul, li {
     /* box-shadow: 5px 5px 10px #999; */
 }
 
+.pl-paragraph {
+    padding: 0 0 50px 15PX;
+    margin-bottom: 20px;
+}
+
 .integrations {
     /* padding-bottom: 25px; */
 }
@@ -412,9 +409,7 @@ ul, li {
 
 }
 
-video.about-video {
-    padding-bottom: 180px;
-}
+
 
 /* ============================ OUR PRODUCTS ============================ */
 
