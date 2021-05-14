@@ -8,43 +8,31 @@
 
 
 function openPopup(cardNum) {
-    var el = document.getElementById('popup'+cardNum);
-    var BG = document.getElementById('bgcover');
-    el.style.display = 'block';
-    BG.style.display = 'block';
-  }
-  
-  function closePopup(cardNum) {
-      if(!cardNum) {
-          var el = document.getElementsByClassName('popup');
-          for (var i = 0; i < el.length; i++) {
-              el[i].style.display = 'none';
-            } 
-      } else {
-          var el = document.getElementById('popup'+cardNum);
-          el.style.display = 'none';
-      }
-    var BG = document.getElementById('bgcover');
-    BG.style.display = 'none';
-  }
-  
-
-  // NAVBAR STICK
-  var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
+  var el = document.getElementById('popup'+cardNum);
+  var BG = document.getElementById('bgcover');
+  el.style.display = 'block';
+  BG.style.display = 'block';
 }
 
-// COUNTDOWN
+function closePopup(cardNum) {
+    if(!cardNum) {
+        var el = document.getElementsByClassName('popup');
+        for (var i = 0; i < el.length; i++) {
+            el[i].style.display = 'none';
+          } 
+    } else {
+        var el = document.getElementById('popup'+cardNum);
+        el.style.display = 'none';
+    }
+  var BG = document.getElementById('bgcover');
+  BG.style.display = 'none';
+}
 
+
+// COUNTDOWN
 var countDownDate = new Date("Sept 30, 2021 00:00:00").getTime();
 
+function timer() {
 var x = setInterval(function() {
   var now = new Date().getTime();
 
@@ -62,3 +50,26 @@ var x = setInterval(function() {
     document.getElementById("launch").innerHTML = "EXPIRED";
   }
 }, 1000);
+}
+
+function closeNav() { 
+document.getElementById("navbarNav").classList.remove('show');
+}
+
+function isMobile(){
+// credit to Timothy Huang for this regex test: 
+// https://dev.to/timhuang/a-simple-way-to-detect-if-browser-is-on-a-mobile-device-with-javascript-44j3
+if(/iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+    return true
+}
+else{
+    return false
+}
+} 
+
+if(isMobile()) {
+console.log("made it");
+document.getElementById("parallax-one").style.backgroundAttachment = "scroll";
+document.getElementById("parallax-two").style.backgroundAttachment = "scroll";
+document.getElementById("parallax-three").style.backgroundAttachment = "scroll";
+}
