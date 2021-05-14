@@ -258,13 +258,6 @@ ul, li {
 }
 
 
-/* #service {
-    padding: 80px;
-    background-color: #f8f9fa;
-    /* background-image: linear-gradient(to right bottom,  #f5f5f5,  #f5f5f5,  #f5f5f5, #9193a1, #26374d); */
-/* } */
-
-
 /* LINE ABOVE ABOUT US */
 
 
@@ -328,7 +321,6 @@ ul, li {
 #about-us {
     background: #f8f9fa;
     padding-top: 40px;
-    /* text-transform: uppercase; */
     margin: auto;
 }
 
@@ -340,7 +332,6 @@ ul, li {
 #about-mission {
     padding-bottom: 50px;
     background: #f8f9fa;
-    /* text-transform: uppercase; */
     margin: auto;
 }
 
@@ -372,7 +363,6 @@ video.about-video {
 #products-landing {
     background: #f8f9fa;
     padding: 75px 0 50px 0;
-    /* text-transform: uppercase; */
     margin: auto;
 }
 
@@ -393,7 +383,6 @@ video.about-video {
     font-family: 'Josefin Sans';
     color: #26374D;
     text-transform: uppercase;
-    /* box-shadow: 5px 5px 10px #999; */
 }
 
 .pl-paragraph {
@@ -519,7 +508,8 @@ video.about-video {
 
 .jumbotron {
     background-image: url(../Images/Handshake.jpeg);
-        padding-top: 360px;
+    background-size: cover;
+    padding-top: 360px;
 }
 
 .contact-promo-title {
