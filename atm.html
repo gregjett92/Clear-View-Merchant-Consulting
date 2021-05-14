@@ -15,70 +15,86 @@
   </head>
   <body>
 
-    <main>
-      <section id="nav-bar">
-        <nav class="navbar navbar-expand-lg navbar-style navbar-light bg-light ">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html"><img src="Images/original_on_transparent.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">HOME</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html#wws">WHO WE SERVICE</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html#services">OUR SERVICES</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html#about-us">ABOUT US</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="products_landing_page.html">OUR PRODUCTS</a>
-                  </li>
-                </ul>
-              </div>
+    <div id='bgcover' onclick="closePopup()"></div>
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-style navbar-light bg-light ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="Images/original_on_transparent.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#wws">WHO WE SERVICE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#services">OUR SERVICES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html#about-us">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="products_landing_page.html">OUR PRODUCTS</a>
+                </li>
+                <li>
+                </li>
+              </ul>
             </div>
-          </nav>
-    </section>
+          </div>
+        </nav>
+  </section>
   
       <!-- ======================================= HEADER ========================================== -->
-  
+
+      <div class="productJump" id="clover"></div>
       <div id="parallax">
         <section id="product">
           <div class="container text-center">
-            <h1 class="title">ATM</h1>
+            <!-- <h1 class="title">CLOVER SERIES</h1> -->
+            <h1 data-scroll="toggle(.fromTopIn, .fromTopOut)" class="title animate__animated animate__fadeInDown animate__delay-1s">ATM</h1>
             <br><br>
             <div class="row row-cols-1 row-cols-md-3 g-4">
-              <div class="col">
+
+              <!-- CARD ONE -->
+
+              <div class="col" id='card1'>
                 <div class="card product">
                   <img src="Images/ATM/ATM Kahuna.jpg" class="card-img-top product-img" alt="...">
                   <div class="card-body ">
                     <h4 class="card-title">Kahuna</h4>
-                    <a class="btn btn-first main-active nav-item" href="#">VIEW DETAILS</a>
+                    <a class="btn btn-first main-active nav-item" onclick="openPopup(11)">VIEW DETAILS</a>
                   </div>
                 </div>
-              </div> 
-            </div>
+              </div>
           </div>
         </section>
-      
+
+        <!-- ======================================= POPUPS ========================================== -->
+
+        <div class="container popup text-center" id='popup13' style='display:none;'>
+          <h2 class="popup-header animate__animated animate__fadeInDown">Clover Mini</h2>
+          <!-- <h3 class="animate__animated animate__fadeInDown animate__delay-1s">IMPRESSIVE Smart Tablet</h3> -->
+          <p class="popup-info">A full point-of-sale system in one sleek little package. Mini can fit into any space but packs plenty of POS power to run your business, end to end. Use it just for payments or to run your whole business from inventory to payroll.
+            </p><br><br><br><br><br><br><p>“Contact us for more information.”</p>
+          <a class="btn btn-first main-active card1" onclick="closePopup(13)" href="#">CLOSE</a>
+        </div>
+
         <!-- ======================================= PAGINATION ========================================== -->
   
   
-        <div class="center">
+        <!-- <div class="center">
           <div class="pagination">
           <a href="our_products(2).html">&laquo;</a>
           <a href="our_products.html" class="active">1</a>
-          <!-- <a href="our_products(2).html">2</a>
-          <a href="our_products(3).html">3</a> -->
+          <a href="our_products(2).html">2</a>
+          <a href="our_products(3).html">3</a>
           <a href="#">&raquo;</a>
           </div>
-        </div>
+        </div> -->
   
         <section id="social-media">
           <div class="container text-center">
