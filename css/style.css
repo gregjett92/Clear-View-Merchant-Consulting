@@ -243,6 +243,7 @@ ul, li {
     color: #26374D;
     font-family: 'Spectral SC', serif;
     text-transform: uppercase;
+    font-weight: 600;
 } 
 
 #our-service {
@@ -516,7 +517,22 @@ video.about-video {
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 70px;
+    padding-bottom: 130px;
     font-family: 'Spectral SC', serif;
+}
+
+.contact-title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 14%;
+    font-family: 'Josefin Sans';
+    color: #26374D;
+    text-transform: uppercase;
+}
+
+.contact-info {
+    font-size: 30px;
+    font-weight: 600;
 }
 
 /* ============================ COMING SOON ============================ */
