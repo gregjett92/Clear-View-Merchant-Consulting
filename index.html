@@ -30,13 +30,13 @@
                     <a class="nav-link" href="index.html">HOME</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#wws">WHO WE SERVICE</a>
+                    <a class="nav-link" onclick="closeNav()" href="#wws">WHO WE SERVICE</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#services">OUR SERVICES</a>
+                    <a class="nav-link" onclick="closeNav()" href="#services">OUR SERVICES</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#about-us">ABOUT US</a>
+                    <a class="nav-link" onclick="closeNav()" href="#about-us-jump">ABOUT US</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="products_landing_page.html">OUR PRODUCTS</a>
@@ -50,7 +50,7 @@
     <!-- ======================================= HEADER ========================================== -->
 
     <section id="header">
-        <div class="container">
+        <div class="container splash">
             <div class="row">
                 <div class="col-md-6">
                     <p data-scroll="toggle(.fromTopIn, .fromTopOut)" class="promo-title animate__animated animate__fadeInDown">CLEARVIEW<br><span id="merch-con">MERCHANT CONSULTING</span></p>
@@ -71,7 +71,7 @@
 
     <div id="parallax">
       <section>
-        <div class="parallax-one"></div>
+        <div id="parallax-one"></div>
         <span id="wws" style='display:hidden; margin-top:2.5rem'></span>
         <div class="container text-center" style='padding-top:2.5rem;'>
           <h1 data-scroll="toggle(.fromTopIn, .fromTopOut)" class="title animate__animated animate__fadeInDown" id="wws-title">WHO WE SERVICE</h1>
@@ -107,7 +107,7 @@
     <!-- ======================================= SERVICES ========================================== -->
 
     <div id="parallax">
-      <div class="parallax-two"></div>
+      <div id="parallax-two"></div>
       <section>
         <span id="services" style='display:hidden; margin-top:2.5rem'></span>
         <div class="container text-center">
@@ -135,7 +135,7 @@
           <a class="btn btn-first main-active" href="pricing.html">PRICING</a>
         </div>
       </section>
-      <div class="parallax-three"></div>
+      <div id="parallax-three"></div>
       <!-- ======================================= ABOUT US ========================================== -->
       <!-- <section id="about-us">
         <div class="container text-center">
@@ -152,14 +152,15 @@
             <div></div>
       </section> -->
 
+      <span id="about-us-jump" style='display:hidden; margin-top:2.5rem'></span>
       <section id="about-us">
         <div class="container text-center">
           <h1 class="title text-center">About Us</h1>
-            <div class="row container text-center about-video">
+            <div class="row text-center about-video">
                 <div class="col-md-6">
                   <!-- <img src="Images/sales.jpg" class="img-fluid"> -->
                   <video class="about-video" width="550" height="550" autoplay muted loop>
-                    <source src="video/walking.mp4" type="video/mp4">
+                    <source src="Video/walking.mp4" type="video/mp4">
                     <!-- <source src="movie.ogg" type="video/ogg"> -->
                   Your browser does not support the video tag.
                   </video>
@@ -184,9 +185,9 @@
                     The growth of your business is our purpose.
                   </p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 order-first order-md-last">
                   <video class="about-video" width="550" height="550" autoplay muted loop>
-                    <source src="video/meeting.mp4" type="video/mp4">
+                    <source src="Video/meeting.mp4" type="video/mp4">
                     <!-- <source src="movie.ogg" type="video/ogg"> -->
                   Your browser does not support the video tag.
                   </video>
