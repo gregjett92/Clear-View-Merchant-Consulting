@@ -175,6 +175,11 @@ ul, li {
     padding: 50px 0;
 }
 
+#wws-section {
+    height: 900px;
+    padding-top: 120PX;
+}
+
 #wws-title {
     margin-bottom: 25px;
 }
@@ -721,5 +726,10 @@ hr {
         background: #f8f9fa;
         /* padding-top: 25px; */
         margin: auto;
+    }
+
+    #wws-section {
+        height: auto;
+        padding-top: 0PX;
     }
   }
