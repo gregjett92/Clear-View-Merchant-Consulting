@@ -518,16 +518,20 @@ video.about-video {
     padding-top: 360px;
 }
 
+#contact-section {
+    padding-bottom: 100px;
+}
+
 .contact-promo-title {
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 70px;
-    padding-bottom: 130px;
+    padding-top: 60px;
     font-family: 'Spectral SC', serif;
 }
 
 .contact-title {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 600;
     margin-top: 14%;
     font-family: 'Josefin Sans';
@@ -681,15 +685,9 @@ hr {
     }
 
     .product img {
-        /* height: 100%; */
         width: 100%;
     }
 
-    /* .about-video {
-        max-width: 100%;
-        height: auto;
-        padding: 50px 0 0 15PX;
-   } */
 
     .about-img-move {
         padding: 50px 0 0 15PX;
@@ -731,5 +729,9 @@ hr {
     #wws-section {
         height: auto;
         padding-top: 0PX;
+    }
+
+    .jumbotron {
+        background-position: center
     }
   }
