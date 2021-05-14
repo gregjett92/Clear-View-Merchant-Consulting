@@ -178,6 +178,7 @@ ul, li {
 #wws-section {
     height: 900px;
     padding-top: 120PX;
+    
 }
 
 #wws-title {
@@ -261,6 +262,12 @@ ul, li {
     border: none;
     border-radius: 20px;
     color: #26374D;
+}
+
+#service-section {
+    height: 1000px;
+    padding-top: 100PX; 
+    padding-bottom: 120px;
 }
 
 
@@ -733,5 +740,11 @@ hr {
 
     .jumbotron {
         background-position: center
+    }
+
+    #service-section {
+        height: auto;
+        padding-top: 0;
+        padding-bottom: 0;
     }
   }
