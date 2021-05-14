@@ -650,6 +650,8 @@ hr {
         top: 8%;
         overflow:auto;
     }
+
+ 
 }
 @media only screen and (max-width: 1500px) {
 
@@ -677,11 +679,11 @@ hr {
         width: 100%;
     }
 
-    .about-video {
+    /* .about-video {
         max-width: 100%;
         height: auto;
         padding: 50px 0 0 15PX;
-   }
+   } */
 
     .about-img-move {
         padding: 50px 0 0 15PX;
@@ -689,10 +691,14 @@ hr {
   }
 
   @media only screen and (max-width: 769px) {
-    .about-video {
+     .about-video {
         max-width: 100%;
         height: auto;
-        padding: 70px 0 0 15PX;
+        padding: 40px 0 0 15PX;
+   } 
+
+   video.about-video {
+       padding-bottom: 0;
    }
 
     .about-paragraph {
@@ -707,16 +713,12 @@ hr {
 
     #about-us {
         background: #f8f9fa;
-        padding-top: 25px;
-        text-transform: uppercase;
         margin: auto;
     }
 
     #about-mission {
-        padding-bottom: 50px;
         background: #f8f9fa;
         /* padding-top: 25px; */
-        text-transform: uppercase;
         margin: auto;
     }
   }
