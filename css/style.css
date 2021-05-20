@@ -489,7 +489,6 @@ video.about-video {
 .popup{
     position: fixed;
     text-align: center;
-    overflow: scroll;
     top: 15%;
     width: 800px;
     min-height: 500px;
@@ -504,6 +503,14 @@ video.about-video {
     box-shadow: 0 1px 6px 4px #000;
     overflow: hidden;
     padding: 10px 20px 0 20px;
+}
+
+#popup15 {
+    overflow-y: auto;
+}
+
+.popup-info {
+    overflow-y: scroll;
 }
 
 #dejavavooz11-list {
