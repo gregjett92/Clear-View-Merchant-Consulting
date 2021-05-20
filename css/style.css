@@ -605,6 +605,26 @@ hr {
     font-size: 40px;
     word-spacing: 20px;
 }
+
+/* ============================ INTEGRATION ============================ */
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 1200px;
+    background: #26374D;
+    box-shadow: 0 25px 30px rgba(0,0,0,.5);
+}
+
+.content {
+    width: 50%;
+    height: 100%;
+    background: #ff0;
+    box-sizing: border-box;
+}
 /* ============================ PAGINATION ============================ */
 .center {
     text-align: center;
