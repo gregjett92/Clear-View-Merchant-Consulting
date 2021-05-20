@@ -608,7 +608,7 @@ hr {
 
 /* ============================ INTEGRATION ============================ */
 
-section {
+.section {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -617,13 +617,22 @@ section {
     width: 1200px;
     background: #26374D;
     box-shadow: 0 25px 30px rgba(0,0,0,.5);
+    display: flex;
 }
 
 .content {
     width: 50%;
     height: 100%;
-    background: #ff0;
+    background: #26374D;
     box-sizing: border-box;
+}
+
+.imageBox {
+    width: 50%;
+    height: 100%;
+    background: #f00;
+    box-sizing: border-box;
+    border-left: 100px solid #000;
 }
 /* ============================ PAGINATION ============================ */
 .center {
