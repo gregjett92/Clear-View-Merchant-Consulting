@@ -472,6 +472,7 @@ video.about-video {
 .card-body{
     background-color: #D3D3D3;
     width: 100%;
+    padding: 0;
 }
 
 #bgcover {
