@@ -818,6 +818,18 @@ hr {
         transform: translateY(-50%);
     }
 
+    .info h1{
+        font-size: 70px;
+        letter-spacing: 10px;
+    }
+
+    .info p {
+        color: #fff;
+        font-size: 11px;
+        margin: 20px 0;
+        line-height: 18px;
+    }
+
     #int_title {
         color: #fff !important;
     }
