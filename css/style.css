@@ -615,8 +615,28 @@ hr {
     background-size: cover;
     background-position: center;
     position: relative;
-    padding-top: 75%;
+    padding-top: 67%;
+    /* padding-bottom: 50%; */
+}
 
+#container {
+    width: 50%;
+    height: 1132px;
+    background: rgba(86,86,86,0.5);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* padding-top: 00px; */
+}
+
+.info {
+    width: 550px;
+    color: #fff;
+    position: absolute;
+    right: 10%;
+    top: 45%;
+    transform: translateY(-50%);
 }
 /* ============================ PAGINATION ============================ */
 .center {
@@ -778,6 +798,24 @@ hr {
 
     .pl-title {
         margin-top: 0;
+    }
+
+    #container {
+        width: 100%;
+        height: 900px;
+        background: rgba(86,86,86,0.5);
+        backdrop-filter: blur(10px);
+        position: absolute;
+        left: 0;
+    }
+
+    .info {
+        width: 100%;
+        color: #fff;
+        position: absolute;
+        left: 0;
+        top: 45%;
+        transform: translateY(-50%);
     }
     
   }
