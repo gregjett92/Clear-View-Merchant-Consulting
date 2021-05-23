@@ -817,5 +817,9 @@ hr {
         top: 45%;
         transform: translateY(-50%);
     }
+
+    #int_title {
+        color: #fff !important;
+    }
     
   }
