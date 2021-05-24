@@ -489,7 +489,8 @@ video.about-video {
 .popup{
     position: fixed;
     text-align: center;
-    top: 15%;
+    top: 5%;
+    bottom: 5%;
     width: 800px;
     min-height: 500px;
     margin: auto;
@@ -615,13 +616,13 @@ hr {
     background-size: cover;
     background-position: center;
     position: relative;
-    padding-top: 67%;
+    /* padding-top: 67%; */
     /* padding-bottom: 50%; */
 }
 
 #container {
     width: 50%;
-    height: 1132px;
+    height: 100%;
     background: rgba(86,86,86,0.5);
     backdrop-filter: blur(10px);
     position: absolute;
@@ -631,12 +632,14 @@ hr {
 }
 
 .info {
-    width: 550px;
+    /* width: 550px; */
     color: #fff;
     position: absolute;
-    right: 10%;
+    /* right: 10%; */
     top: 45%;
     transform: translateY(-50%);
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .info h1{
@@ -819,11 +822,12 @@ hr {
 
     #container {
         width: 100%;
-        height: 900px;
+        height: 100%;
         background: rgba(86,86,86,0.5);
         backdrop-filter: blur(10px);
         position: absolute;
         left: 0;
+        max-width: 100%;
     }
 
     .info {
