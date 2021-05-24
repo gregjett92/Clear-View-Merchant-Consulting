@@ -638,6 +638,23 @@ hr {
     top: 45%;
     transform: translateY(-50%);
 }
+
+.info h1{
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.info p {
+    color: #fff;
+    font-size: 16px;
+    /* margin: 20px 0; */
+    line-height: 18px;
+}
+
+#int_title {
+    color: #fff !important;
+}
+
 /* ============================ PAGINATION ============================ */
 .center {
     text-align: center;
@@ -819,14 +836,14 @@ hr {
     }
 
     .info h1{
-        font-size: 70px;
-        letter-spacing: 10px;
+        font-size: 40px;
+        letter-spacing: 5px;
     }
 
     .info p {
         color: #fff;
-        font-size: 11px;
-        margin: 20px 0;
+        font-size: 16px;
+        /* margin: 20px 0; */
         line-height: 18px;
     }
 
