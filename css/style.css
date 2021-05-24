@@ -9,11 +9,18 @@ body {
     /* background-color: #26374D; */
 }
 
+
 ul, li {
     padding-left: 0px;
     /* margin: 10px 0; */
-    line-height: 45px;
+    line-height: 20px;
+    text-align: center;
 }
+
+li {
+    margin-bottom: 20px;
+}
+
 
 /* ====================== NAVBAR ======================== */
 
