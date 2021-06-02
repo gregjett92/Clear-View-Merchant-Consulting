@@ -68,7 +68,6 @@ else{
 } 
 
 if(isMobile()) {
-console.log("made it");
 document.getElementById("parallax-one").style.backgroundAttachment = "scroll";
 document.getElementById("parallax-two").style.backgroundAttachment = "scroll";
 document.getElementById("parallax-three").style.backgroundAttachment = "scroll";
